@@ -1,0 +1,141 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    font-family: open sans-serif;
+}
+header{
+    background-image: url(imeges/fastbackground.jpg);
+    background-size: cover;
+    /* overflow: hidden; */
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 15px 0;
+    height: 606px;
+    background-color: rgba(128, 128, 128, 0.856);
+    background-blend-mode: multiply;
+}
+.wrapper{
+    width: 1086px;
+    margin: auto;
+    /* overflow: hidden; */
+}
+.logo{
+    padding: 15px;
+    width: 20%;
+    float: left;
+    color: white;
+    padding-left: 56px;
+}
+h2{
+    margin: 0;
+    font-size: 22px;
+    font-weight: 400;
+}
+span{
+    font-size: 15px;
+    font-weight: 400;
+    color: #00dcff;
+}
+/* navber section */
+nav{
+    width: 70%;
+    float: right;
+    padding-top: 5px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: end;
+    font-size: 16px;
+}
+
+nav ul li{
+    padding: 7px;
+    list-style: none;
+    padding-top: 3px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 6px 18px;
+    font-size: 18px;
+}
+nav ul li a:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 0   0   10px    white;
+}
+/* banner section */
+.banner{
+    text-align: center;
+    padding-top: 170px;
+    color: white;
+    /* width: 100%; */
+}
+/* div h6{
+    padding: 30px;
+    font-size: 63px;
+} */
+.banner h1{
+    font-size: 65px;
+}
+.banner h3{
+    font-size: 30px;
+    font-style: italic;
+}
+div a{
+    text-decoration: none;
+    color: white;
+}
+button{
+    cursor: pointer;
+    padding: 6px 15px;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    font-weight: 700;
+}
+button:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 0   0   10px    white;
+}
+/* events section */
+.events{
+    text-align: center;
+    padding: 60px 0;
+}
+.events h2{
+    font-size: 36px;
+    font-weight: 600;
+    color: rgb(58, 57, 57);
+}
+.menu{
+    display: flex;
+}
+/* explore section start */
+.explore{
+    background-image: url(imeges/father.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 656px;
+    /* color: rgba(0, 0, 255, 0.918); */
+    background-blend-mode: multiply;
+}
+.explore h1{
+    padding-left: 700px;
+    padding-top: 184px;
+    font-size: 55px;
+}
+
+.explore p{
+    padding-left: 700px;
+}
+
+.explore button{
+    padding-left: 700px;
+}
